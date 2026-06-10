@@ -150,5 +150,27 @@
         {"name": "EMPOWER (continuare)", "fund": "Erasmus+ Capacity Building", "code": "2025 KA220-YOU (CB)", "desc": "Continuarea proiectului EMPOWER de întărire a participării tinerilor rurali prin formare, dialog structurat, transfer de cunoștințe și schimburi internaționale."}
       ]
     }
-  ]
+  ],
+  "upcoming": {
+    "title": "Proiecte în pregătire · căutăm parteneri",
+    "subtitle": "Proiecte aflate în faza de pregătire, pentru care GAL Napoca Porolissum caută parteneri europeni. Apasă pe fiecare pentru detalii și pentru a afla cum poți deveni partener.",
+    "projects": [
+      {
+        "name": "GREEN GUARDIANS",
+        "fund": "FEADR · PS PAC 2023-2027 · DR 36 LEADER (cooperare transnațională)",
+        "tagline": "Rețea transnațională de formare a tinerilor în pilotaj drone — monitorizare de mediu, eco-turism FPV și protecție civilă",
+        "seeking": "Căutăm 4 GAL-uri partenere din alte state membre UE (alături de 4 GAL-uri din România)",
+        "desc": "GREEN GUARDIANS creează o rețea transnațională de 8 Grupuri de Acțiune Locală (4 RO + 4 UE) pentru formarea a minimum 400 de tineri (12-18 ani) din mediul rural în pilotaj de drone, cu aplicații practice în monitorizarea mediului (păduri, deșeuri, eroziune, cursuri de apă), eco-turism și slow-turism (cartografiere trasee, conținut FPV de promovare) și protecție civilă (căutare-salvare, evaluare post-fenomene meteo extreme). Punctul central este GREEN FPV DRONE CAMP — un eveniment transnațional găzduit de GAL Napoca Porolissum: tabără de 5 zile, competiție publică de pilotaj FPV și spectacol de drone cu lumini. Proiectul include un curriculum comun pe 2 niveluri, certificare A1/A3/A2 pentru piloții performeri, un centru de antrenament (container echipat) și un poligon de drone.",
+        "highlights": ["8 GAL-uri (4 RO + 4 UE)", "400+ tineri formați", "Buget GAL NP: 150.000 €", "GREEN FPV DRONE CAMP", "Punctaj estimat 100/100"]
+      },
+      {
+        "name": "ALMA – Mobilitate transnațională pentru tineri",
+        "fund": "FSE+ · Programul Educație și Ocupare (PEO) 2021-2027 · Prioritatea 2",
+        "tagline": "Sprijin pentru tineri vulnerabili NEET printr-un parcurs în trei etape: pregătire în România, mobilitate într-un alt stat UE și sprijin la reintegrare",
+        "seeking": "Căutăm organizații gazdă în străinătate (în special Italia / Sardinia — turism, HoReCa, agroalimentar) pentru 10-12 participanți · Manifestare de interes până la 25 iunie",
+        "desc": "Proiect dezvoltat în cadrul inițiativei europene ALMA (Aim, Learn, Master, Achieve), finanțată prin FSE+ / PEO 2021-2027, Prioritatea 2 – Ocuparea tinerilor. ALMA sprijină tinerii vulnerabili care nu sunt încadrați profesional și nu urmează studii sau formare (NEET) printr-un parcurs structurat: pregătire personalizată în România, mobilitate transnațională de aproximativ 2 luni (extensibilă până la 6 luni) într-un alt stat membru UE și sprijin la reîntoarcere. Căutăm o organizație gazdă dispusă să primească un grup de 10-12 participanți pentru un stagiu practic real și supervizat. Organizația gazdă nu suportă costuri din buget propriu — cheltuielile de organizare sunt rambursate de organizația trimițătoare conform Acordului de Cooperare (costuri simplificate UE, Reg. Delegat UE 2022/2175). Perioada flexibilă: 2026-2029. Contact: Alina Ioana Baba, Director General — manager@napocaporolissum.ro.",
+        "highlights": ["FSE+ / ALMA", "10-12 tineri NEET", "Mobilitate 2-6 luni", "Stagii în UE", "Termen interes: 25 iunie"]
+      }
+    ]
+  }
 }

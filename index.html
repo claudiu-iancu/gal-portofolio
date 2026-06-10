@@ -57,21 +57,28 @@
   .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
   .chip{background:var(--purple-soft);color:var(--navy);font-weight:600;font-size:13px;padding:7px 13px;border-radius:999px}
 
-  /* ---------- TIMELINE ---------- */
+  /* ---------- CATEGORII / ACCORDION ---------- */
   #proiecte{background:linear-gradient(180deg,#fff,#f6f7fb)}
-  .yearblock{margin-bottom:46px}
-  .yearhead{display:flex;align-items:center;gap:16px;margin:0 0 22px}
-  .yearhead .dot{width:16px;height:16px;border-radius:5px;background:var(--purple);box-shadow:0 0 0 5px var(--purple-soft)}
-  .yearhead h3{font-size:24px;font-weight:800;color:var(--navy);margin:0}
-  .yearhead .count{font-size:13px;color:var(--muted);font-weight:600;background:#fff;border:1px solid var(--line);padding:4px 11px;border-radius:999px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
-  .card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;cursor:pointer;transition:.22s;position:relative;overflow:hidden}
+  .catlist{display:flex;flex-direction:column;gap:14px}
+  .cat{background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);overflow:hidden;transition:.2s}
+  .cat.open{box-shadow:var(--shadow-lg)}
+  .catbar{display:flex;align-items:center;gap:18px;padding:22px 26px;cursor:pointer;user-select:none}
+  .catbar:hover{background:#fbfaff}
+  .catbar .num{font-family:'Montserrat';font-size:38px;font-weight:800;color:var(--purple);line-height:1;min-width:62px;text-align:center}
+  .catbar .ci{flex:1}
+  .catbar .ci h3{font-size:19px;font-weight:800;color:var(--navy);margin:0 0 3px}
+  .catbar .ci span{font-size:13px;color:var(--muted);font-weight:500}
+  .catbar .chev{width:30px;height:30px;border-radius:50%;background:var(--purple-soft);display:flex;align-items:center;justify-content:center;transition:.25s;color:var(--purple)}
+  .cat.open .chev{transform:rotate(180deg)}
+  .catbody{max-height:0;overflow:hidden;transition:max-height .35s ease}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;padding:6px 26px 26px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;cursor:pointer;transition:.22s;position:relative;overflow:hidden}
   .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--purple);opacity:0;transition:.22s}
-  .card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:transparent}
+  .card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:transparent}
   .card:hover::before{opacity:1}
-  .card .fund{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.03em;color:var(--purple);background:var(--purple-soft);padding:5px 11px;border-radius:999px;margin-bottom:14px}
-  .card h4{font-family:'Poppins';font-size:16.5px;font-weight:600;margin:0 0 8px;color:var(--ink);line-height:1.35}
-  .card .more{font-size:13px;color:var(--muted);font-weight:600;display:flex;align-items:center;gap:6px;margin-top:14px}
+  .card .yr{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.03em;color:var(--purple);background:var(--purple-soft);padding:4px 10px;border-radius:999px;margin-bottom:10px}
+  .card h4{font-family:'Poppins';font-size:15px;font-weight:600;margin:0;color:var(--ink);line-height:1.35}
+  .card .more{font-size:12.5px;color:var(--muted);font-weight:600;display:flex;align-items:center;gap:6px;margin-top:12px}
   .card .more svg{transition:.2s}
   .card:hover .more{color:var(--purple)}
   .card:hover .more svg{transform:translateX(3px)}
@@ -89,6 +96,25 @@
   .modal .meta{font-size:13px;color:var(--muted);margin:0 0 18px;font-weight:500}
   .modal .meta b{color:var(--ink)}
   .modal p.desc{color:#444a63;line-height:1.7;font-size:15px;margin:0}
+
+  /* ---------- PARTENERIATE (upcoming) ---------- */
+  #parteneriate{background:linear-gradient(160deg,#13193D 0%,#241f55 100%);color:#fff}
+  #parteneriate h2{color:#fff}
+  #parteneriate .sub{color:#c4c8e6}
+  .badge-new{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#13193D;background:#c9bcff;padding:7px 15px;border-radius:999px;margin-bottom:18px}
+  .upgrid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  @media(max-width:880px){.upgrid{grid-template-columns:1fr}}
+  .upcard{background:rgba(255,255,255,.06);border:1px solid rgba(201,188,255,.25);border-radius:20px;padding:30px;cursor:pointer;transition:.22s;position:relative;overflow:hidden}
+  .upcard:hover{transform:translateY(-5px);background:rgba(255,255,255,.1);border-color:#c9bcff;box-shadow:0 24px 50px rgba(0,0,0,.3)}
+  .upcard .fund{display:inline-block;font-size:11.5px;font-weight:700;color:#c9bcff;background:rgba(201,188,255,.14);padding:6px 13px;border-radius:999px;margin-bottom:16px;letter-spacing:.02em}
+  .upcard h3{font-family:'Montserrat';font-size:24px;font-weight:800;margin:0 0 12px;color:#fff;line-height:1.2}
+  .upcard .tag{color:#dbdef2;font-size:14.5px;line-height:1.55;margin:0 0 18px}
+  .upcard .hl{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+  .upcard .hl span{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);color:#eef0ff;font-size:12px;font-weight:600;padding:6px 12px;border-radius:8px}
+  .upcard .seek{display:flex;align-items:flex-start;gap:10px;background:rgba(201,188,255,.12);border-left:3px solid #c9bcff;border-radius:8px;padding:12px 14px;font-size:13.5px;color:#eae5ff;line-height:1.5;font-weight:500}
+  .upcard .more{margin-top:18px;font-size:13.5px;color:#c9bcff;font-weight:700;display:flex;align-items:center;gap:6px}
+  .upcard:hover .more svg{transform:translateX(3px)}
+  .upcard .more svg{transition:.2s}
 
   /* ---------- FOOTER ---------- */
   footer.site{background:var(--navy);color:#fff;padding:56px 0 40px}
@@ -108,6 +134,7 @@
     <nav class="links">
       <a href="#teritoriu">Teritoriu</a>
       <a href="#proiecte">Proiecte</a>
+      <a href="#parteneriate">Parteneriate</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -137,8 +164,17 @@
 <section class="section" id="proiecte">
   <div class="wrap">
     <h2>Proiecte implementate</h2>
-    <p class="sub">Apasă pe orice proiect pentru a vedea detaliile: fondul de finanțare, codul și descrierea. Organizate cronologic, pe ani.</p>
-    <div id="timeline"></div>
+    <p class="sub">Peste 45 de proiecte, grupate pe categorii de finanțare. Apasă pe o categorie pentru a vedea proiectele din ea, apoi pe orice proiect pentru detalii.</p>
+    <div class="catlist" id="catlist"></div>
+  </div>
+</section>
+
+<section class="section" id="parteneriate">
+  <div class="wrap">
+    <span class="badge-new">În căutare de parteneri</span>
+    <h2 id="upTitle"></h2>
+    <p class="sub" id="upSub"></p>
+    <div class="upgrid" id="upcoming"></div>
   </div>
 </section>
 
@@ -197,27 +233,104 @@ function render(d){
   const communes=["Aghireșu","Beliș","Călățele","Căpușu Mare","Gilău","Izvoru Crișului","Măguri-Răcătău","Mănăstireni","Mărgău","Mărișel","Rîșca","Săcuieu","Sâncraiu","Huedin (oraș)"];
   document.getElementById('communeChips').innerHTML = communes.map(c=>`<span class="chip">${c}</span>`).join('');
 
-  // timeline
-  let html='';
-  d.years.forEach((y,yi)=>{
-    html+=`<div class="yearblock"><div class="yearhead"><span class="dot"></span><h3>${y.year}</h3><span class="count">${y.projects.length} ${y.projects.length===1?'proiect':'proiecte'}</span></div><div class="grid">`;
-    y.projects.forEach((p,pi)=>{
-      html+=`<div class="card" onclick="openModal(${yi},${pi})">
-        <span class="fund">${p.fund}</span>
+  // ---- grupare pe CATEGORII de finanțare ----
+  function categ(fund){
+    const f=fund.toLowerCase();
+    if(f.includes('erasmus')) return 'Erasmus+';
+    if(f.includes('interreg')) return 'Interreg Europe';
+    if(f.includes('leader')||f.includes('feadr')) return 'LEADER / FEADR';
+    if(f.includes('pndr')) return 'PNDR 2014–2020';
+    if(f.includes('pocu')||f.includes('fse')||f.includes('poe')||f.includes('peo')||f.includes('poids')) return 'POCU / FSE+';
+    if(f.includes('pnrr')||f.includes('afcn')) return 'PNRR / AFCN';
+    if(f.includes('afm')) return 'AFM · Fondul de Mediu';
+    if(f.includes('sgg')) return 'SGG · Guvernul României';
+    if(f.includes('cerv')) return 'CERV';
+    return 'Alte finanțări';
+  }
+  const desc={
+    'Erasmus+':'Educație, formare profesională (VET) și tineret prin parteneriate europene',
+    'PNDR 2014–2020':'Dezvoltare rurală, lanțuri scurte, cooperare LEADER și inovare agricolă',
+    'LEADER / FEADR':'Strategia de Dezvoltare Locală actuală și sprijinul pentru fermieri',
+    'POCU / FSE+':'Ocupare, incluziune socială și capacitate instituțională',
+    'PNRR / AFCN':'Cultură în mediul rural și reducerea inegalităților de acces',
+    'AFM · Fondul de Mediu':'Educație de mediu și responsabilitate civică',
+    'Interreg Europe':'Cooperare europeană pe tehnologii asistive și îngrijire socială',
+    'SGG · Guvernul României':'Acces la experiențe culturale educaționale',
+    'CERV':'Participare democratică și cetățenie activă',
+    'Alte finanțări':'Alte programe de finanțare'
+  };
+  const FLAT=[]; const groups={};
+  d.years.forEach(y=>y.projects.forEach(p=>{
+    const idx=FLAT.length; FLAT.push({...p,year:y.year});
+    const c=categ(p.fund); (groups[c]=groups[c]||[]).push(idx);
+  }));
+  window._FLAT=FLAT;
+  const order=Object.keys(groups).sort((a,b)=>groups[b].length-groups[a].length);
+  let ch='';
+  order.forEach((c,ci)=>{
+    const items=groups[c];
+    let cards='';
+    items.forEach(idx=>{
+      const p=FLAT[idx];
+      cards+=`<div class="card" onclick="openFlat(${idx})">
+        <span class="yr">${p.year}</span>
         <h4>${p.name}</h4>
         <div class="more">Vezi detalii <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       </div>`;
     });
-    html+='</div></div>';
+    ch+=`<div class="cat" id="cat${ci}">
+      <div class="catbar" onclick="toggleCat(${ci})">
+        <div class="num">${items.length}</div>
+        <div class="ci"><h3>${c}</h3><span>${desc[c]||''}</span></div>
+        <div class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div>
+      </div>
+      <div class="catbody" id="body${ci}"><div class="grid">${cards}</div></div>
+    </div>`;
   });
-  document.getElementById('timeline').innerHTML=html;
+  document.getElementById('catlist').innerHTML=ch;
+
+  // ---- upcoming / parteneriate ----
+  if(d.upcoming){
+    document.getElementById('upTitle').textContent=d.upcoming.title;
+    document.getElementById('upSub').textContent=d.upcoming.subtitle;
+    let uh='';
+    d.upcoming.projects.forEach((p,i)=>{
+      uh+=`<div class="upcard" onclick="openUp(${i})">
+        <span class="fund">${p.fund}</span>
+        <h3>${p.name}</h3>
+        <p class="tag">${p.tagline}</p>
+        <div class="hl">${p.highlights.map(h=>`<span>${h}</span>`).join('')}</div>
+        <div class="seek">🤝 ${p.seeking}</div>
+        <div class="more">Vezi detalii & cum devii partener <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+      </div>`;
+    });
+    document.getElementById('upcoming').innerHTML=uh;
+  }
 }
 
-function openModal(yi,pi){
-  const y=DATA.years[yi], p=y.projects[pi];
+function openUp(i){
+  const p=DATA.upcoming.projects[i];
   document.getElementById('mFund').textContent=p.fund;
   document.getElementById('mName').textContent=p.name;
-  document.getElementById('mMeta').innerHTML=`<b>Perioadă:</b> ${y.year}${p.code && p.code!=='—' ? ` &nbsp;·&nbsp; <b>Cod:</b> ${p.code}` : ''}`;
+  document.getElementById('mMeta').innerHTML=`🤝 <b>${p.seeking}</b>`;
+  document.getElementById('mDesc').textContent=p.desc;
+  document.getElementById('modal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+
+function toggleCat(ci){
+  const cat=document.getElementById('cat'+ci);
+  const body=document.getElementById('body'+ci);
+  const isOpen=cat.classList.contains('open');
+  if(isOpen){cat.classList.remove('open');body.style.maxHeight=null;}
+  else{cat.classList.add('open');body.style.maxHeight=body.scrollHeight+'px';}
+}
+
+function openFlat(idx){
+  const p=window._FLAT[idx];
+  document.getElementById('mFund').textContent=p.fund;
+  document.getElementById('mName').textContent=p.name;
+  document.getElementById('mMeta').innerHTML=`<b>Perioadă:</b> ${p.year}${p.code && p.code!=='—' ? ` &nbsp;·&nbsp; <b>Cod:</b> ${p.code}` : ''}`;
   document.getElementById('mDesc').textContent=p.desc;
   document.getElementById('modal').classList.add('open');
   document.body.style.overflow='hidden';
