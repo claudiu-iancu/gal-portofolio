@@ -124,10 +124,31 @@
   footer .links a{display:block;color:#cdd2ec;text-decoration:none;font-size:14.5px;margin-bottom:10px}
   footer .links a:hover{color:#fff}
   footer .bottom{border-top:1px solid rgba(255,255,255,.12);margin-top:36px;padding-top:22px;font-size:12.5px;color:#9aa0c4;text-align:center}
+
+  /* ---------- BANNER PROSECCO ---------- */
+  .pbanner{position:relative;background:linear-gradient(100deg,#2a1d4d 0%,#4b2f8c 45%,#7E58F0 100%);color:#fff;overflow:hidden}
+  .pbanner .pwrap{max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:20px}
+  .pbanner img{height:64px;width:auto;flex-shrink:0;filter:drop-shadow(0 6px 14px rgba(0,0,0,.35));border-radius:10px}
+  .pbanner .ptxt{flex:1;min-width:0}
+  .pbanner .ptag{display:inline-block;font-family:'Montserrat';font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:11px;color:#13193D;background:#ffe27a;padding:4px 11px;border-radius:999px;margin-bottom:5px}
+  .pbanner .pmsg{font-family:'Montserrat';font-weight:700;font-size:clamp(15px,2.1vw,20px);line-height:1.25;margin:0}
+  .pbanner .pclose{flex-shrink:0;border:none;background:rgba(255,255,255,.16);color:#fff;width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:18px;line-height:1;transition:.2s}
+  .pbanner .pclose:hover{background:rgba(255,255,255,.32)}
+  @media(max-width:620px){.pbanner img{height:52px}.pbanner .pwrap{gap:14px;padding:12px 18px}}
 </style>
 </head>
 <body>
 
+<div class="pbanner" id="pbanner">
+  <div class="pwrap">
+    <img src="assets/prosecco.png" alt="Sticlă de prosecco și două pahare" onerror="this.style.display='none'"/>
+    <div class="ptxt">
+      <span class="ptag">🥂 Alertă</span>
+      <p class="pmsg">Nivel de prosecco scăzut. Echipa s-a retras de urgență spre cazare. 😅</p>
+    </div>
+    <button class="pclose" onclick="document.getElementById('pbanner').remove()" aria-label="Închide">×</button>
+  </div>
+</div>
 <header class="site">
   <div class="wrap nav">
     <img src="assets/logo_gal.png" alt="GAL Napoca Porolissum" onerror="this.style.display='none'"/>
