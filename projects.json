@@ -1,0 +1,154 @@
+{
+  "org": {
+    "name": "GAL Napoca Porolissum",
+    "slogan_ro": "Dezvoltăm ruralul, păstrăm tradițiile!",
+    "slogan_en": "Developing rural areas, preserving traditions!",
+    "about_ro": "Asociația GAL Napoca Porolissum este un parteneriat public-privat care funcționează ca organizație neguvernamentală, cu scopul de a dezvolta teritoriul și comunitatea pe care o deservește, printr-o abordare bottom-up (CLLD). Parteneriatul cuprinde 43 de entități, dintre care peste 62,8% reprezintă sectorul privat și societatea civilă.",
+    "territory_ro": "Teritoriul include 13 comune – Aghireșu, Beliș, Călățele, Căpușu Mare, Gilău, Izvoru Crișului, Măguri-Răcătău, Mănăstireni, Mărgău, Mărișel, Rîșca, Săcuieu și Sâncraiu – și un oraș: Huedin. Toate sunt situate în partea de vest a județului Cluj, în zona Munților Apuseni (Gilău, Vlădeasa și Muntele Mare).",
+    "stats": {"area": "1.614 km²", "population": "44.381", "communes": 13, "town": 1, "partners": 43}
+  },
+  "years": [
+    {
+      "year": "2016–2017",
+      "projects": [
+        {"name": "Move Up to be Healthy and Happy", "fund": "Erasmus+", "code": "2015-2907/001-00117", "desc": "Inițiativă în șase țări pentru promovarea activității fizice și a unui stil de viață sănătos în rândul copiilor, părinților și comunităților școlare. A susținut activități sportive în curțile școlilor, schimb de practici educaționale și acțiuni de conștientizare privind rolul mișcării în prevenirea problemelor de sănătate."},
+        {"name": "Implementarea Strategiei de Dezvoltare Locală (SDL)", "fund": "PNDR 2014-2020", "code": "C19400060011661375852", "desc": "Instrumentul principal de sprijinire a competitivității rurale, serviciilor locale, antreprenoriatului și calității vieții. GAL a organizat apeluri de proiecte, animare locală, sprijin pentru beneficiari, evaluare și monitorizare."},
+        {"name": "Innovet – Strategic Partnership", "fund": "Erasmus+", "code": "2017-1-FR01-KA202-037438", "desc": "Parteneriat european axat pe inovare în educația și formarea profesională (VET): guvernanță, management instituțional, incluziune și asigurarea calității, pentru a adapta sistemele de formare la nevoile pieței muncii."},
+        {"name": "POMICOL – Lanțuri scurte pentru produse ECO", "fund": "PNDR 2014-2020 (sM 16.4)", "code": "C16400000011661300045", "desc": "Sprijin pentru producătorii locali de fructe și eco-fructe din Rîșca, Aghireșu și Săcuieu prin dezvoltarea unui lanț scurt de aprovizionare: evenimente de promovare, degustări, ateliere pentru copii și vânzări mobile în mediul urban."}
+      ]
+    },
+    {
+      "year": "2018–2019",
+      "projects": [
+        {"name": "GOAL (Go Out And Live)", "fund": "Erasmus+", "code": "2018-1-PL01-KA204050650", "desc": "Extinderea activității europene în domeniul îmbătrânirii active și al sprijinului pentru vârstnici: incluziune, cooperare în îngrijirea socială și abordări de wellbeing relevante pentru comunitățile rurale."},
+        {"name": "Măsura 1.1", "fund": "PNDR 2014-2020", "code": "C0110CS01011860500059", "desc": "Sprijin pentru obiective de dezvoltare locală identificate prin abordarea LEADER: competitivitate, inițiativă locală, servicii și condiții de trai prin acțiuni rurale țintite."},
+        {"name": "Măsura 19.2 – Incluziune Rurală", "fund": "PNDR 2014-2020", "code": "C1920074X106061305036", "desc": "Întărirea dimensiunii sociale a SDL prin sprijinirea dezvoltării locale incluzive și a răspunsurilor la vulnerabilitatea comunitară: participare, acces egal la oportunități și reziliență locală."},
+        {"name": "Măsura 1.2", "fund": "PNDR 2014-2020", "code": "C0110CS01011861300092", "desc": "Animarea teritoriului și comunicare în jurul SDL: sesiuni de informare, consultări și dialog continuu cu comunitățile, pentru creșterea participării actorilor publici, privați și ai societății civile."}
+      ]
+    },
+    {
+      "year": "2020–2022",
+      "projects": [
+        {"name": "Experiența celor patru anotimpuri (Food Derby)", "fund": "PNDR 2014-2020 (M 19.3)", "code": "C1930B060T01961300005", "desc": "Gastronomia ca motor al turismului și al identității locale: promovarea rețetelor tradiționale, evenimente culinare și transfer de cunoștințe pentru experiențe turistice legate de produsele locale și tradițiile sezoniere."},
+        {"name": "ENPORTBETA – Turism rural durabil", "fund": "PNDR 2014-2020 (M 19.3)", "code": "C1930B060T01961300001", "desc": "Cooperare transnațională pentru turism rural sustenabil: infrastructură turistică, promovarea produselor locale, pachete turistice atractive și dezvoltare eco-friendly adaptată zonelor rurale."},
+        {"name": "Say Cheese! Balkan Cheese!", "fund": "PNDR 2014-2020 (M 19.3)", "code": "C1930B060T01961300009", "desc": "Proiect de cooperare axat pe brânzeturile tradiționale balcanice ca active culturale și economice: branding, promovare, transfer de know-how, acces la piață și elemente de turism în jurul produselor lactate autentice."}
+      ]
+    },
+    {
+      "year": "2020–2024",
+      "projects": [
+        {"name": "Măsura 16.4 – Lanțuri scurte (cătină și produse montane)", "fund": "PNDR 2014-2020", "code": "C164A0000011961300024", "desc": "Sprijin pentru producătorii de cătină și produse agricole montane prin lanțuri scurte: evenimente de promovare, participare la târguri, spații de vânzare dedicate și soluții de acces direct la piață."},
+        {"name": "Internships pentru tineri (NV)", "fund": "POCU 6.14 – FSE", "code": "POCU/6/14/130626", "desc": "Acces la formare și calificare pentru tineri din Regiunea Nord-Vest prin internshipuri, consiliere și orientare în carieră, în special pentru elevi din turism și alimentație publică, sprijinind tranziția școală–piața muncii."},
+        {"name": "VET 4 Change", "fund": "Erasmus+", "code": "KA202-B3433AEF", "desc": "Adaptarea educației profesionale la provocările reale ale teritoriilor rurale prin metode de inteligență colectivă: identificarea barierelor de dezvoltare și regândirea ofertelor de formare (migrație, deficit de competențe)."},
+        {"name": "BEE SMART, BEE HEALTHY", "fund": "PNDR 2014-2020 (M 16.1)", "code": "C16100000011861300005", "desc": "Inovare în apicultură prin soluții moderne de prevenție și management al sănătății coloniilor: monitorizare smart, metode Living Lab și tratamente pe bază de plante împotriva Varroa."}
+      ]
+    },
+    {
+      "year": "2021–2024",
+      "projects": [
+        {"name": "POCU 5.2 – Incluziune socială în teritoriul GAL", "fund": "POCU 5.2 – FSE", "code": "POCU/827/5/2/139970", "desc": "Combaterea sărăciei, excluziunii și părăsirii timpurii a școlii la grupurile vulnerabile: consiliere, sprijin personalizat și măsuri de incluziune pe piața muncii, cu accent pe tineri din comunități marginalizate, inclusiv romi."},
+        {"name": "MIRELA C – Inovație în cultura lavandei", "fund": "PNDR 2014-2020 (M 16.1)", "code": "C16100000011861300006", "desc": "Recoltare mai eficientă și adaptabilitate îmbunătățită a culturii de lavandă: echipamente de recoltare semi-autonome și soluții de cercetare pentru creșterea productivității și a calității."},
+        {"name": "Rural Youth Parliament", "fund": "Erasmus+", "code": "2021-1-RO01-KA220-YOU-000029265", "desc": "Poziționarea tinerilor rurali ca participanți activi în viața comunității: sesiuni de simulare, formare, ghid de cooperare transnațională și schimburi de bune practici pentru implicare civică și dezvoltare personală."}
+      ]
+    },
+    {
+      "year": "2021–2023",
+      "projects": [
+        {"name": "Let's green, digital and animate rural inclusive territories", "fund": "Erasmus+", "code": "2021-1-RO01-KA220-VET-000034694", "desc": "Formarea și certificarea persoanelor care vor să lucreze ca lucrători de dezvoltare comunitară în mediul rural: competențe verzi și digitale, formare modernă, învățare la locul de muncă și schimb transnațional."},
+        {"name": "Addressing Youth Skills and Community Youth Inclusion", "fund": "Erasmus+", "code": "KA220-YOU", "desc": "Îmbunătățirea participării tinerilor din zone rurale și îndepărtate la activități civice și de dezvoltare locală: învățare non-formală pentru tineri lideri și instrumente de colaborare pentru incluziune."},
+        {"name": "The Green Step", "fund": "Erasmus+", "code": "KA220-ADU", "desc": "Educație pentru schimbări climatice și sustenabilitate pentru adulți, educatori și grupuri vulnerabile: curricule inovatoare, metode non-formale și programe locale flexibile pentru competențe verzi."},
+        {"name": "SMART+CULTURE", "fund": "Erasmus+", "code": "KA2 Small-scale (YOUTH)", "desc": "Încurajarea tinerilor să vadă agricultura ca spațiu de antreprenoriat și inovare: informații despre politici de tineret și fonduri europene, ghiduri, cercetare și webinarii despre oportunități de afaceri agricole."},
+        {"name": "LEADER ENJOY WINE (LEW)", "fund": "PNDR 2014-2020 (M 19.3)", "code": "C1930B060T01161300012", "desc": "Promovarea oeno-turismului și a produselor locale prin branding teritorial: Wine Route Map, tradiții locale, storytelling, instrumente digitale și acces la noi piețe pentru produsele vinicole."}
+      ]
+    },
+    {
+      "year": "2022–2025",
+      "projects": [
+        {"name": "Circular Organic Management (COM)", "fund": "Erasmus+", "code": "KA220-SCH", "desc": "Impactul deșeurilor organice abordat prin educație și schimbare de comportament cu elevi, părinți, școli și comunități: instrumente practice și metode participative pentru economia circulară."},
+        {"name": "Alb de Răcătău – Dairy with a Twist", "fund": "PNDR 2014-2020", "code": "—", "desc": "Cooperare între producătorii de lactate din zona Măguri-Răcătău și marketing local prin lanțuri scurte: degustări, informare și educație a consumatorilor în jurul produselor lactate montane sănătoase."},
+        {"name": "YouProClima", "fund": "Erasmus+", "code": "KA220-YOU", "desc": "Impactul schimbărilor climatice asupra tinerilor din zone periferice urbane și rurale: conectarea realităților locale cu problemele globale de mediu și implicare activă ca răspuns la eco-anxietate."}
+      ]
+    },
+    {
+      "year": "2023–2025",
+      "projects": [
+        {"name": "Promovarea produselor lactate ecologice", "fund": "PNDR 2014-2020 (M 16.4)", "code": "C1640000E012161300025", "desc": "Sprijin pentru lanțuri scurte și marketing local al produselor lactate ecologice din teritoriu."},
+        {"name": "Promovarea produselor din fructe prin lanțuri scurte", "fund": "PNDR 2014-2020 (M 16.4)", "code": "C164A000E012161300019", "desc": "Cooperare între actori agro-alimentari din Cluj pentru consum crescut de fructe de la micii producători prin legături directe producător–consumator."},
+        {"name": "Choose Romania! (Alege România!)", "fund": "SGG – Secretariatul General al Guvernului", "code": "20/23593", "desc": "Acces la spectacole și experiențe culturale educaționale în zone cu oportunități limitate: activități dedicate lui I.L. Caragiale, cercetare de public, acțiuni de teatru și conferințe pentru reducerea disparităților culturale rural–urban."},
+        {"name": "Tabăra Copiilor și Tinerilor", "fund": "PNDR 2014-2020 (M 19.3)", "code": "C1930B060T01261300015", "desc": "Activități de tabără și învățare practică pentru tineri pe teme de mediu, transport alternativ și legătura dintre alegerile individuale, sănătate și protecția mediului."}
+      ]
+    },
+    {
+      "year": "2023–2024",
+      "projects": [
+        {"name": "RURALIADA", "fund": "PNRR – AFCN", "code": "71/PNRR", "desc": "Program cultural de tip festival care aduce artele vizuale, performative și digitale în comunitatea rurală din Beliș: ateliere, teatru, proiecții, activități multimedia și discuții cu artiști pentru reducerea inegalităților de acces la cultură."}
+      ]
+    },
+    {
+      "year": "2023",
+      "projects": [
+        {"name": "Măsura 19.1 – Sprijin pregătitor pentru noua SDL", "fund": "PNDR 2014-2020", "code": "D19100000012361300146", "desc": "Sprijin pregătitor pentru elaborarea noii Strategii de Dezvoltare Locală: consultări, animare, analiză teritorială și implicarea stakeholderilor pentru identificarea priorităților viitoare."}
+      ]
+    },
+    {
+      "year": "2024",
+      "projects": [
+        {"name": "Choose Green! (Alege Verde!)", "fund": "AFM – Administrația Fondului pentru Mediu", "code": "661/H", "desc": "Educație de mediu și responsabilitate civică în comunitățile rurale: ateliere de conștientizare, campanii de informare, activități pe teren și o aplicație interactivă pentru învățare și implicare."},
+        {"name": "Put the Green in Motion!", "fund": "AFM – Administrația Fondului pentru Mediu", "code": "662/H", "desc": "Învățare structurată pentru copii și tineri (6–18 ani) pe teme de biodiversitate, reciclare, poluare și schimbări climatice: tabere, ateliere, experiențe pe teren și comunicare condusă de tineri."},
+        {"name": "Voices of Change", "fund": "CERV", "code": "101146514", "desc": "Creșterea participării democratice a tinerelor migrante prin cetățenie activă, incluziune și empowerment: mecanisme de consultare care reunesc fete migrante și locale în procese civice și decizionale."},
+        {"name": "DR 36", "fund": "LEADER (FEADR)", "code": "C3601F210013061300144", "desc": "Cadrul strategic actual prin care GAL sprijină identitatea locală, creșterea economică, incluziunea, egalitatea de gen și utilizarea durabilă a resurselor teritoriale: apeluri, comunicare, selecție de proiecte și animare."}
+      ]
+    },
+    {
+      "year": "2024–2026",
+      "projects": [
+        {"name": "PEO", "fund": "POE / FSE", "code": "6255", "desc": "Întărirea dialogului social, a parteneriatelor de ocupare și a capacității instituționale a ONG-urilor: digitalizare, formare profesională, construire de parteneriate și activități de inovare care leagă ONG-urile de nevoile pieței muncii."}
+      ]
+    },
+    {
+      "year": "2024–2029",
+      "projects": [
+        {"name": "DR 37 – Farmers for the Future", "fund": "FEADR / LEADER", "code": "C3701CS00012361300031", "desc": "Transfer de cunoștințe și decizii mai bune pentru fermieri prin acces la informație practică și învățare agricolă modernă: management informat al fermelor și competențe pentru sustenabilitate și performanță."}
+      ]
+    },
+    {
+      "year": "2024–2027",
+      "projects": [
+        {"name": "HIKEWISE – Beyond Hiking", "fund": "Erasmus+", "code": "2024 KA220-SCH-AA6CEA7D", "desc": "Conectarea educației fizice, a stării de bine mintale și a conștientizării de mediu prin drumeții și învățare în aer liber pentru profesori și elevi: resurse educaționale testate în context real și diseminare digitală."},
+        {"name": "ALL4JOBS", "fund": "Erasmus+", "code": "2024 KA220-YOU-70101DB1", "desc": "Răspuns la barierele tinerilor dezavantajați și cu dizabilități în accesul la formare și ocupare: inovare digitală, metode incluzive de lucru cu tinerii și instrumente îmbunătățite de sprijin pentru lucrătorii de tineret."}
+      ]
+    },
+    {
+      "year": "2025",
+      "projects": [
+        {"name": "CONNECT-R – Connecting rural youth with the EU", "fund": "Erasmus+", "code": "2025 KA154-YOU-62F63343", "desc": "Întărirea relației dintre tinerii rurali și instituțiile democratice prin dialog structurat și cooperare internațională: spații unde tinerii și factorii de decizie discută provocările rurale și formulează recomandări."},
+        {"name": "DR37 – Sustainable Development in Cluj County", "fund": "FEADR / LEADER", "code": "C3701CS00012561300013", "desc": "Modernizare agricolă prin practici durabile, eco-scheme, angajamente climatice, utilizare eficientă a resurselor, digitalizare, bunăstarea animalelor și energie regenerabilă."},
+        {"name": "EMPOWER – Empowering Rural Youth", "fund": "Erasmus+ Capacity Building", "code": "2025 KA220-YOU (CB)", "desc": "Proiect internațional de capacity-building pentru participarea, leadershipul și guvernanța comunitară a tinerilor în Europa și Africa Subsahariană, inspirat de modelul Rural Youth Parliament."}
+      ]
+    },
+    {
+      "year": "2025–2026",
+      "projects": [
+        {"name": "UNIC – Porolissum", "fund": "PoIDS 2021-2027", "code": "MySMIS 329335", "desc": "Unul dintre cele mai substanțiale proiecte sociale ale GAL: combaterea sărăciei infantile și a riscului de separare a familiei printr-un model integrat de sprijin — evaluare, management de caz, planificare personalizată, servicii sociale, sprijin educațional și psihologic și sprijin parental structurat."}
+      ]
+    },
+    {
+      "year": "2025–2028",
+      "projects": [
+        {"name": "TECH SOCIAL CARE", "fund": "Interreg Europe", "code": "03C0809", "desc": "Răspuns la provocările legate de îmbătrânire și cererea crescută de îngrijire de calitate printr-un cadru european de cooperare axat pe tehnologii asistive și digitale: dezvoltarea unui cadru comun de standarde și cerințe funcționale, cu schimb între autorități, furnizori de servicii și organizații partenere."}
+      ]
+    },
+    {
+      "year": "2025–2029",
+      "projects": [
+        {"name": "CULTURAL LEMONADE", "fund": "AFCN", "code": "CALL10-PCS-1142", "desc": "Promovarea lecturii, a exprimării creative și a accesului la cultura scrisă pentru copiii din comunitățile rurale: ateliere de promovare a lecturii, scriere creativă, ilustrație, producție de conținut original și evenimente locale de tip festival."}
+      ]
+    },
+    {
+      "year": "2025–2027",
+      "projects": [
+        {"name": "EMPOWER (continuare)", "fund": "Erasmus+ Capacity Building", "code": "2025 KA220-YOU (CB)", "desc": "Continuarea proiectului EMPOWER de întărire a participării tinerilor rurali prin formare, dialog structurat, transfer de cunoștințe și schimburi internaționale."}
+      ]
+    }
+  ]
+}

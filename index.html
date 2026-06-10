@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#13193D" />
+<title>Portofoliul de proiecte · GAL Napoca Porolissum</title>
+<meta name="description" content="Portofoliul proiectelor implementate de GAL Napoca Porolissum, 2016–prezent: LEADER, Erasmus+, Interreg, POCU/FSE, PNRR, AFCN și altele." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#13193D; --purple:#7E58F0; --purple-soft:#efeaff;
+    --ink:#1d2238; --muted:#6a6f87; --line:#e7e8f0; --bg:#f6f7fb; --white:#fff;
+    --shadow:0 10px 30px rgba(19,25,61,.08); --shadow-lg:0 24px 60px rgba(19,25,61,.18);
+    --radius:18px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:'Poppins',system-ui,sans-serif;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
+  h1,h2,h3,.display{font-family:'Montserrat',sans-serif}
+  a{color:inherit}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+  /* ---------- HEADER ---------- */
+  header.site{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+  .nav img{height:54px;width:auto}
+  .nav .links{display:flex;gap:26px;font-weight:600;font-size:14px}
+  .nav .links a{text-decoration:none;color:var(--navy);opacity:.85}
+  .nav .links a:hover{opacity:1;color:var(--purple)}
+  @media(max-width:720px){.nav .links{display:none}}
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;background:linear-gradient(135deg,#13193D 0%,#1f2a63 55%,#3a2f8f 100%);color:#fff;overflow:hidden}
+  .hero::after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(126,88,240,.55),transparent 70%)}
+  .hero .wrap{position:relative;padding:84px 24px 96px;z-index:2}
+  .hero .kicker{display:inline-block;font-weight:600;letter-spacing:.16em;text-transform:uppercase;font-size:12px;color:#c9bcff;border:1px solid rgba(201,188,255,.4);padding:7px 14px;border-radius:999px;margin-bottom:22px}
+  .hero h1{font-size:clamp(34px,5vw,60px);line-height:1.05;margin:0 0 18px;font-weight:800}
+  .hero h1 .hl{color:#c9bcff}
+  .hero p.lead{max-width:680px;font-size:clamp(16px,2vw,20px);color:#dfe2f2;line-height:1.6;margin:0 0 34px}
+  .stats{display:flex;flex-wrap:wrap;gap:14px}
+  .stat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:16px 22px;min-width:130px}
+  .stat b{display:block;font-family:'Montserrat';font-size:26px;font-weight:800}
+  .stat span{font-size:12.5px;color:#c4c8e0;letter-spacing:.02em}
+
+  /* ---------- TERITORIU ---------- */
+  .section{padding:74px 0}
+  .section h2{font-size:clamp(26px,3.4vw,40px);font-weight:800;color:var(--navy);margin:0 0 8px}
+  .section .sub{color:var(--muted);font-size:16px;max-width:720px;margin:0 0 36px;line-height:1.6}
+  .terit{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
+  @media(max-width:880px){.terit{grid-template-columns:1fr}}
+  .terit .map{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:14px;border:1px solid var(--line)}
+  .terit .map img{width:100%;height:auto;border-radius:12px;display:block}
+  .terit .copy p{color:#444a63;line-height:1.7;font-size:15.5px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+  .chip{background:var(--purple-soft);color:var(--navy);font-weight:600;font-size:13px;padding:7px 13px;border-radius:999px}
+
+  /* ---------- TIMELINE ---------- */
+  #proiecte{background:linear-gradient(180deg,#fff,#f6f7fb)}
+  .yearblock{margin-bottom:46px}
+  .yearhead{display:flex;align-items:center;gap:16px;margin:0 0 22px}
+  .yearhead .dot{width:16px;height:16px;border-radius:5px;background:var(--purple);box-shadow:0 0 0 5px var(--purple-soft)}
+  .yearhead h3{font-size:24px;font-weight:800;color:var(--navy);margin:0}
+  .yearhead .count{font-size:13px;color:var(--muted);font-weight:600;background:#fff;border:1px solid var(--line);padding:4px 11px;border-radius:999px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;cursor:pointer;transition:.22s;position:relative;overflow:hidden}
+  .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--purple);opacity:0;transition:.22s}
+  .card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:transparent}
+  .card:hover::before{opacity:1}
+  .card .fund{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.03em;color:var(--purple);background:var(--purple-soft);padding:5px 11px;border-radius:999px;margin-bottom:14px}
+  .card h4{font-family:'Poppins';font-size:16.5px;font-weight:600;margin:0 0 8px;color:var(--ink);line-height:1.35}
+  .card .more{font-size:13px;color:var(--muted);font-weight:600;display:flex;align-items:center;gap:6px;margin-top:14px}
+  .card .more svg{transition:.2s}
+  .card:hover .more{color:var(--purple)}
+  .card:hover .more svg{transform:translateX(3px)}
+
+  /* ---------- MODAL ---------- */
+  .modal{position:fixed;inset:0;z-index:80;display:none;align-items:center;justify-content:center;padding:24px}
+  .modal.open{display:flex}
+  .modal .overlay{position:absolute;inset:0;background:rgba(19,25,61,.55);backdrop-filter:blur(3px)}
+  .modal .box{position:relative;background:#fff;border-radius:20px;max-width:560px;width:100%;padding:36px;box-shadow:var(--shadow-lg);z-index:2;animation:pop .25s ease}
+  @keyframes pop{from{transform:translateY(14px) scale(.97);opacity:0}to{transform:none;opacity:1}}
+  .modal .close{position:absolute;right:18px;top:16px;border:none;background:#f1f2f8;width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:18px;color:var(--navy);line-height:1}
+  .modal .close:hover{background:var(--purple-soft)}
+  .modal .fund{display:inline-block;font-size:12px;font-weight:700;color:var(--purple);background:var(--purple-soft);padding:6px 13px;border-radius:999px;margin-bottom:16px}
+  .modal h3{font-size:23px;font-weight:800;color:var(--navy);margin:0 0 6px;line-height:1.25}
+  .modal .meta{font-size:13px;color:var(--muted);margin:0 0 18px;font-weight:500}
+  .modal .meta b{color:var(--ink)}
+  .modal p.desc{color:#444a63;line-height:1.7;font-size:15px;margin:0}
+
+  /* ---------- FOOTER ---------- */
+  footer.site{background:var(--navy);color:#fff;padding:56px 0 40px}
+  footer .ftop{display:flex;flex-wrap:wrap;justify-content:space-between;gap:30px;align-items:flex-start}
+  footer img{height:50px;margin-bottom:14px}
+  footer .slo{font-family:'Montserrat';font-weight:700;font-size:20px;max-width:320px;line-height:1.3}
+  footer .links a{display:block;color:#cdd2ec;text-decoration:none;font-size:14.5px;margin-bottom:10px}
+  footer .links a:hover{color:#fff}
+  footer .bottom{border-top:1px solid rgba(255,255,255,.12);margin-top:36px;padding-top:22px;font-size:12.5px;color:#9aa0c4;text-align:center}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <img src="assets/logo_gal.png" alt="GAL Napoca Porolissum" onerror="this.style.display='none'"/>
+    <nav class="links">
+      <a href="#teritoriu">Teritoriu</a>
+      <a href="#proiecte">Proiecte</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="kicker">Portofoliu · 2016 – prezent</span>
+    <h1>Proiecte care <span class="hl">dezvoltă ruralul</span><br/>și păstrează tradițiile</h1>
+    <p class="lead" id="aboutLead"></p>
+    <div class="stats" id="statsRow"></div>
+  </div>
+</section>
+
+<section class="section wrap" id="teritoriu">
+  <h2>Teritoriul GAL</h2>
+  <p class="sub" id="teritSub"></p>
+  <div class="terit">
+    <div class="map"><img src="assets/harta_teritoriu.png" alt="Harta teritoriului GAL Napoca Porolissum"/></div>
+    <div class="copy">
+      <p id="teritCopy"></p>
+      <div class="chips" id="communeChips"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="proiecte">
+  <div class="wrap">
+    <h2>Proiecte implementate</h2>
+    <p class="sub">Apasă pe orice proiect pentru a vedea detaliile: fondul de finanțare, codul și descrierea. Organizate cronologic, pe ani.</p>
+    <div id="timeline"></div>
+  </div>
+</section>
+
+<div class="modal" id="modal">
+  <div class="overlay" onclick="closeModal()"></div>
+  <div class="box">
+    <button class="close" onclick="closeModal()">×</button>
+    <span class="fund" id="mFund"></span>
+    <h3 id="mName"></h3>
+    <p class="meta" id="mMeta"></p>
+    <p class="desc" id="mDesc"></p>
+  </div>
+</div>
+
+<footer class="site" id="contact">
+  <div class="wrap">
+    <div class="ftop">
+      <div>
+        <img src="assets/logo_gal.png" alt="GAL Napoca Porolissum" onerror="this.style.display='none'"/>
+        <div class="slo">Dezvoltăm ruralul,<br/>păstrăm tradițiile!</div>
+      </div>
+      <div class="links">
+        <a href="https://napocaporolissum.ro" target="_blank" rel="noopener">🌐 napocaporolissum.ro</a>
+        <a href="mailto:contact@napocaporolissum.ro">✉️ contact@napocaporolissum.ro</a>
+        <a href="https://www.facebook.com/asociatiagal.napocaporolissum" target="_blank" rel="noopener">📘 Facebook</a>
+        <a href="https://www.instagram.com/gal.napocaporolissum" target="_blank" rel="noopener">📸 Instagram</a>
+      </div>
+    </div>
+    <div class="bottom">© <span id="yr"></span> Asociația GAL Napoca Porolissum · Munții Apuseni, județul Cluj</div>
+  </div>
+</footer>
+
+<script>
+let DATA=null;
+fetch('projects.json').then(r=>r.json()).then(d=>{DATA=d;render(d);});
+
+function render(d){
+  document.getElementById('aboutLead').textContent = d.org.about_ro;
+  document.getElementById('teritSub').textContent = "13 comune și un oraș în vestul județului Cluj, în inima Munților Apuseni.";
+  document.getElementById('teritCopy').textContent = d.org.territory_ro;
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // stats
+  const s=d.org.stats;
+  const totalProj = d.years.reduce((a,y)=>a+y.projects.length,0);
+  const stats=[
+    {b:totalProj+'+', s:'proiecte implementate'},
+    {b:s.area, s:'suprafață'},
+    {b:s.population, s:'locuitori'},
+    {b:s.communes+' + '+s.town, s:'comune + oraș'},
+    {b:s.partners, s:'parteneri'}
+  ];
+  document.getElementById('statsRow').innerHTML = stats.map(x=>`<div class="stat"><b>${x.b}</b><span>${x.s}</span></div>`).join('');
+
+  // commune chips
+  const communes=["Aghireșu","Beliș","Călățele","Căpușu Mare","Gilău","Izvoru Crișului","Măguri-Răcătău","Mănăstireni","Mărgău","Mărișel","Rîșca","Săcuieu","Sâncraiu","Huedin (oraș)"];
+  document.getElementById('communeChips').innerHTML = communes.map(c=>`<span class="chip">${c}</span>`).join('');
+
+  // timeline
+  let html='';
+  d.years.forEach((y,yi)=>{
+    html+=`<div class="yearblock"><div class="yearhead"><span class="dot"></span><h3>${y.year}</h3><span class="count">${y.projects.length} ${y.projects.length===1?'proiect':'proiecte'}</span></div><div class="grid">`;
+    y.projects.forEach((p,pi)=>{
+      html+=`<div class="card" onclick="openModal(${yi},${pi})">
+        <span class="fund">${p.fund}</span>
+        <h4>${p.name}</h4>
+        <div class="more">Vezi detalii <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+      </div>`;
+    });
+    html+='</div></div>';
+  });
+  document.getElementById('timeline').innerHTML=html;
+}
+
+function openModal(yi,pi){
+  const y=DATA.years[yi], p=y.projects[pi];
+  document.getElementById('mFund').textContent=p.fund;
+  document.getElementById('mName').textContent=p.name;
+  document.getElementById('mMeta').innerHTML=`<b>Perioadă:</b> ${y.year}${p.code && p.code!=='—' ? ` &nbsp;·&nbsp; <b>Cod:</b> ${p.code}` : ''}`;
+  document.getElementById('mDesc').textContent=p.desc;
+  document.getElementById('modal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeModal(){document.getElementById('modal').classList.remove('open');document.body.style.overflow='';}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+</script>
+</body>
+</html>
